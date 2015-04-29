@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C9618211AF0B9FE009160DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9618201AF0B9FE009160DF /* AppDelegate.swift */; };
+		3C9618231AF0B9FE009160DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9618221AF0B9FE009160DF /* ViewController.swift */; };
+		3C9618261AF0B9FE009160DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C9618241AF0B9FE009160DF /* Main.storyboard */; };
+		3C9618281AF0B9FE009160DF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C9618271AF0B9FE009160DF /* Images.xcassets */; };
+		3C96182B1AF0B9FE009160DF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C9618291AF0B9FE009160DF /* LaunchScreen.xib */; };
+		3C9618371AF0B9FF009160DF /* BizziBodyFontAwesomeUIButtons_STARTERTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9618361AF0B9FF009160DF /* BizziBodyFontAwesomeUIButtons_STARTERTests.swift */; };
+		3C9618421AF0BA39009160DF /* iconfonts-fontawesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9618411AF0BA39009160DF /* iconfonts-fontawesome.swift */; };
+		3C9618431AF0DA5C009160DF /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C9618401AF0BA1F009160DF /* FontAwesome.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C9618311AF0B9FF009160DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C9618131AF0B9FE009160DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C96181A1AF0B9FE009160DF;
+			remoteInfo = BizziBodyFontAwesomeUIButtons_STARTER;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C96181B1AF0B9FE009160DF /* BizziBodyFontAwesomeUIButtons_STARTER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BizziBodyFontAwesomeUIButtons_STARTER.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C96181F1AF0B9FE009160DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C9618201AF0B9FE009160DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3C9618221AF0B9FE009160DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3C9618251AF0B9FE009160DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C9618271AF0B9FE009160DF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3C96182A1AF0B9FE009160DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3C9618301AF0B9FF009160DF /* BizziBodyFontAwesomeUIButtons_STARTERTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BizziBodyFontAwesomeUIButtons_STARTERTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C9618351AF0B9FF009160DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C9618361AF0B9FF009160DF /* BizziBodyFontAwesomeUIButtons_STARTERTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BizziBodyFontAwesomeUIButtons_STARTERTests.swift; sourceTree = "<group>"; };
+		3C9618401AF0BA1F009160DF /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
+		3C9618411AF0BA39009160DF /* iconfonts-fontawesome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "iconfonts-fontawesome.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C9618181AF0B9FE009160DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C96182D1AF0B9FF009160DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C9618121AF0B9FE009160DF = {
+			isa = PBXGroup;
+			children = (
+				3C96181D1AF0B9FE009160DF /* BizziBodyFontAwesomeUIButtons_STARTER */,
+				3C9618331AF0B9FF009160DF /* BizziBodyFontAwesomeUIButtons_STARTERTests */,
+				3C96181C1AF0B9FE009160DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C96181C1AF0B9FE009160DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C96181B1AF0B9FE009160DF /* BizziBodyFontAwesomeUIButtons_STARTER.app */,
+				3C9618301AF0B9FF009160DF /* BizziBodyFontAwesomeUIButtons_STARTERTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C96181D1AF0B9FE009160DF /* BizziBodyFontAwesomeUIButtons_STARTER */ = {
+			isa = PBXGroup;
+			children = (
+				3C96181F1AF0B9FE009160DF /* Info.plist */,
+				3C9618401AF0BA1F009160DF /* FontAwesome.ttf */,
+				3C9618411AF0BA39009160DF /* iconfonts-fontawesome.swift */,
+				3C9618221AF0B9FE009160DF /* ViewController.swift */,
+				3C9618241AF0B9FE009160DF /* Main.storyboard */,
+				3C96181E1AF0B9FE009160DF /* Supporting Files */,
+			);
+			path = BizziBodyFontAwesomeUIButtons_STARTER;
+			sourceTree = "<group>";
+		};
+		3C96181E1AF0B9FE009160DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C9618201AF0B9FE009160DF /* AppDelegate.swift */,
+				3C9618271AF0B9FE009160DF /* Images.xcassets */,
+				3C9618291AF0B9FE009160DF /* LaunchScreen.xib */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3C9618331AF0B9FF009160DF /* BizziBodyFontAwesomeUIButtons_STARTERTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C9618361AF0B9FF009160DF /* BizziBodyFontAwesomeUIButtons_STARTERTests.swift */,
+				3C9618341AF0B9FF009160DF /* Supporting Files */,
+			);
+			path = BizziBodyFontAwesomeUIButtons_STARTERTests;
+			sourceTree = "<group>";
+		};
+		3C9618341AF0B9FF009160DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C9618351AF0B9FF009160DF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C96181A1AF0B9FE009160DF /* BizziBodyFontAwesomeUIButtons_STARTER */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C96183A1AF0B9FF009160DF /* Build configuration list for PBXNativeTarget "BizziBodyFontAwesomeUIButtons_STARTER" */;
+			buildPhases = (
+				3C9618171AF0B9FE009160DF /* Sources */,
+				3C9618181AF0B9FE009160DF /* Frameworks */,
+				3C9618191AF0B9FE009160DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BizziBodyFontAwesomeUIButtons_STARTER;
+			productName = BizziBodyFontAwesomeUIButtons_STARTER;
+			productReference = 3C96181B1AF0B9FE009160DF /* BizziBodyFontAwesomeUIButtons_STARTER.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C96182F1AF0B9FF009160DF /* BizziBodyFontAwesomeUIButtons_STARTERTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C96183D1AF0B9FF009160DF /* Build configuration list for PBXNativeTarget "BizziBodyFontAwesomeUIButtons_STARTERTests" */;
+			buildPhases = (
+				3C96182C1AF0B9FF009160DF /* Sources */,
+				3C96182D1AF0B9FF009160DF /* Frameworks */,
+				3C96182E1AF0B9FF009160DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C9618321AF0B9FF009160DF /* PBXTargetDependency */,
+			);
+			name = BizziBodyFontAwesomeUIButtons_STARTERTests;
+			productName = BizziBodyFontAwesomeUIButtons_STARTERTests;
+			productReference = 3C9618301AF0B9FF009160DF /* BizziBodyFontAwesomeUIButtons_STARTERTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C9618131AF0B9FE009160DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "bizzi-body";
+				TargetAttributes = {
+					3C96181A1AF0B9FE009160DF = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					3C96182F1AF0B9FF009160DF = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 3C96181A1AF0B9FE009160DF;
+					};
+				};
+			};
+			buildConfigurationList = 3C9618161AF0B9FE009160DF /* Build configuration list for PBXProject "BizziBodyFontAwesomeUIButtons_STARTER" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C9618121AF0B9FE009160DF;
+			productRefGroup = 3C96181C1AF0B9FE009160DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C96181A1AF0B9FE009160DF /* BizziBodyFontAwesomeUIButtons_STARTER */,
+				3C96182F1AF0B9FF009160DF /* BizziBodyFontAwesomeUIButtons_STARTERTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C9618191AF0B9FE009160DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C9618431AF0DA5C009160DF /* FontAwesome.ttf in Resources */,
+				3C9618261AF0B9FE009160DF /* Main.storyboard in Resources */,
+				3C96182B1AF0B9FE009160DF /* LaunchScreen.xib in Resources */,
+				3C9618281AF0B9FE009160DF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C96182E1AF0B9FF009160DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C9618171AF0B9FE009160DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C9618421AF0BA39009160DF /* iconfonts-fontawesome.swift in Sources */,
+				3C9618231AF0B9FE009160DF /* ViewController.swift in Sources */,
+				3C9618211AF0B9FE009160DF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C96182C1AF0B9FF009160DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C9618371AF0B9FF009160DF /* BizziBodyFontAwesomeUIButtons_STARTERTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C9618321AF0B9FF009160DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C96181A1AF0B9FE009160DF /* BizziBodyFontAwesomeUIButtons_STARTER */;
+			targetProxy = 3C9618311AF0B9FF009160DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C9618241AF0B9FE009160DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C9618251AF0B9FE009160DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C9618291AF0B9FE009160DF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C96182A1AF0B9FE009160DF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C9618381AF0B9FF009160DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C9618391AF0B9FF009160DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C96183B1AF0B9FF009160DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BizziBodyFontAwesomeUIButtons_STARTER/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3C96183C1AF0B9FF009160DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BizziBodyFontAwesomeUIButtons_STARTER/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3C96183E1AF0B9FF009160DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BizziBodyFontAwesomeUIButtons_STARTERTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BizziBodyFontAwesomeUIButtons_STARTER.app/BizziBodyFontAwesomeUIButtons_STARTER";
+			};
+			name = Debug;
+		};
+		3C96183F1AF0B9FF009160DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BizziBodyFontAwesomeUIButtons_STARTERTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BizziBodyFontAwesomeUIButtons_STARTER.app/BizziBodyFontAwesomeUIButtons_STARTER";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C9618161AF0B9FE009160DF /* Build configuration list for PBXProject "BizziBodyFontAwesomeUIButtons_STARTER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C9618381AF0B9FF009160DF /* Debug */,
+				3C9618391AF0B9FF009160DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C96183A1AF0B9FF009160DF /* Build configuration list for PBXNativeTarget "BizziBodyFontAwesomeUIButtons_STARTER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C96183B1AF0B9FF009160DF /* Debug */,
+				3C96183C1AF0B9FF009160DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3C96183D1AF0B9FF009160DF /* Build configuration list for PBXNativeTarget "BizziBodyFontAwesomeUIButtons_STARTERTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C96183E1AF0B9FF009160DF /* Debug */,
+				3C96183F1AF0B9FF009160DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C9618131AF0B9FE009160DF /* Project object */;
+}
